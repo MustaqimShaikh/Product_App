@@ -29,8 +29,8 @@
 								<td><a href="delete/${p.id }"><i
 										class="far fa-trash-alt text-danger" style="font-size: 25px;"></i></a>
 									<a href="update/${p.id }"><i
-										class="fas fa-pen-nib text-primary mb-3" style="font-size: 25px;"></i></a>
-								</td>
+										class="fas fa-pen-nib text-primary mb-3"
+										style="font-size: 25px;"></i></a></td>
 							</tr>
 						</c:forEach>
 					</tbody>
@@ -39,13 +39,8 @@
 					<a href="${pageContext.request.contextPath }/add-product"
 						class="btn btn-outline-success">Add Product</a>
 				</div>
-
 			</div>
-
 		</div>
-
 	</div>
-
-
 </body>
 </html>

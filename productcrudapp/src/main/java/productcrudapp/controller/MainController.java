@@ -29,6 +29,7 @@ public class MainController {
 		m.addAttribute("products", products);
 		return "index";
 	}
+	
 	// show add product form
 	@RequestMapping("/add-product")
 	public String addProduct(){
